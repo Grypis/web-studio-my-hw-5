@@ -1,0 +1,566 @@
+/* ============================= Default styles ============================= */
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+main {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+
+.container {
+    width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* ============================= /Default styles ============================= */
+
+/* ============================= Header styles ============================= */
+.page-header {
+   
+}
+
+.header-container {
+     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.page-header-navigation {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 76px;
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+}
+.logo-span {
+    color: #4d5ae5;
+}
+.menu-header {
+    display: flex;
+    gap: 40px;
+    
+}
+.item-menu-header {
+}
+.link-menu-header {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.link-menu-header:active {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #404bbf;
+}
+
+.link-menu-header:hover,
+.link-menu-header:focus {
+    color: #404bbf;
+}
+
+
+
+
+.current {
+    position: relative;
+}
+
+
+
+.current::after {
+   position: absolute;
+   content: "";
+   left: 0;
+   bottom: -1px;
+    border-radius: 2px;
+width: 100%;
+height: 4px;
+background-color: #404bbf;
+}
+
+.link-menu-header:active {
+    color: #404bbf;
+}
+
+.address-header {
+    /* display: flex; */
+}
+.address-menu {
+    display: flex;
+    gap: 40px;
+}
+.address-menu-item {
+}
+.address-link {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
+
+
+/* ============================= /Header styles ============================= */
+
+
+/* ============================= Hero styles ============================= */
+.page-hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-color: rgba(46, 47, 66, 0.7); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/background-hero-min.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.hero-title {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    max-width: 496px;
+    font-size: 56px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-align: center;
+color: #ffffff;
+}
+.btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+background-color:  #4d5ae5;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+min-width: 169px;
+height: 56px;
+border: none;
+transition: background-color 250ms linear;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #404bbf;
+}
+/* ============================= /Hero styles ============================= */
+
+/* ============================= Benefits styles ============================= */
+.page-bebefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.title-benefits {
+    visibility: hidden;
+}
+.page-benefits-menu {
+    display: flex;
+    gap: 24px;
+}
+
+
+.page-benefits-menu-item {
+}
+
+.icon-box {
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+margin-bottom: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.benefits-icon {
+    /* display: block; */
+}
+
+.page-benefits-subtitle {
+    margin-bottom: 8px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.page-benefits-text {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/* ============================= /Benefits styles ============================= */
+
+
+/* ============================= Our team styles ============================= */
+.team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f4f4fd;
+}
+.page-team-title {
+    margin-bottom: 72px;
+    font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
+}
+.page-team-menu {
+    display: flex;
+    gap: 24px;
+}
+.page-team-menu-item {
+    width: calc((100% - 72px) / 4);
+}
+.page-team-img {
+    margin-bottom: 32px;
+}
+.page-team-subtitle {
+    margin-bottom: 8px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.page-team-text {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+margin-bottom: 8px;
+}
+
+.team-section-icons {
+}
+.team-section-menu-icons {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.team-section-list-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d5ae5;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    
+}
+
+.team-section-list-icons:hover, 
+.team-section-list-icons:focus {
+    background-color: #404bbf;
+}
+
+
+.team-icons-links {
+   display: block;
+    fill: #f4f4fd;
+    /* background-color: #4d5ae5; */
+    
+}
+
+/* ============================= /Our team styles ============================= */
+
+
+/* ============================= Portfolio styles ============================= */
+.page-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.page-portfolio-title {
+    margin-bottom: 72px;
+    font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
+}
+.page-portfolio-menu {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.page-portfolio-menu-item {
+    border: 1px solid #f4f4fd;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    width: calc((100% - 48px) / 3);
+    
+}
+.page-portfolio-img {
+    /* margin-bottom: 32px; */
+}
+.page-portfolio-subtitle {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.page-portfolio-text {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-bottom: 32px;
+margin-left: 16px;
+}
+
+.container-overlay {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #4d5ae5;
+    transform: translateY(100%);
+    transition: transform 250ms linear;
+}
+
+.portfolio-overlay-text {
+    padding: 40px 32px 164px 32px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.page-portfolio-menu-item:hover .portfolio-overlay {
+    transform: translateY(0%);
+}
+/* ============================= /Portfolio styles ============================= */
+
+
+/* ============================= Footer styles ============================= */
+.page-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #2e2f42;
+}
+.footer-grandbox {
+    display: flex;
+    /* gap: 120px; */
+}
+
+.footer-left-side-box {
+    margin-right: 120px;
+}
+
+.page-footer-logo {
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd;
+}
+
+.footer-right-side-box {
+    margin-right: 80px;
+}
+
+.page-footer-text {
+    margin-top: 16px;
+    max-width: 264px;
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
+
+.footer-right-side-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #ffffff;
+}
+
+.footer-section-menu-icons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.container-form {
+    width: 460px;
+}
+
+
+
+.text-form {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.container-form-deep {
+    display: flex;
+}
+
+.text-form-input {
+    display: flex;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    min-width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    margin-right: 24px;
+}
+
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    /* height: 40px; */
+    background-color: #4d5ae5;
+    border: none;
+    
+}
+.form-button-icon {
+    margin-left: 16px;
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+}
+
+/* ============================= /Footer styles ============================= */
+
+
+/* ============================= Backdrop styles ============================= */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+}
+
+/* ============================= /Backdrop styles ============================= */
+
+/* ============================= Modal styles ============================= */
+
+.modal {
+    position: absolute;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 408px;
+    height: 584px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fcfcfc;
+
+}
+
+.modal-close-icon {
+    
+}
+
+
+.modal-close-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    border: none;
+    fill: #2e2f42;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* ============================= /Modal styles ============================= */
+
